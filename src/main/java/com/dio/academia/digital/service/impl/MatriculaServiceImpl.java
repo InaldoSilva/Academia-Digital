@@ -1,13 +1,13 @@
 package com.dio.academia.digital.service.impl;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import com.dio.academia.digital.entity.Aluno;
 import com.dio.academia.digital.repository.AlunoRepository;
 import com.dio.academia.digital.repository.MatriculaRepository;
 import com.dio.academia.digital.entity.Matricula;
 import com.dio.academia.digital.entity.form.MatriculaForm;
 import com.dio.academia.digital.service.IMatriculaService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 

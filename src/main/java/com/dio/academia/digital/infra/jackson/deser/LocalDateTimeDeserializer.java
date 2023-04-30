@@ -1,16 +1,13 @@
 package com.dio.academia.digital.infra.jackson.deser;
 
 import com.fasterxml.jackson.core.JsonParser;
+import com.dio.academia.digital.infra.utils.JavaTimeUtils;
 import com.fasterxml.jackson.databind.DeserializationContext;
 import com.fasterxml.jackson.databind.deser.std.StdDeserializer;
-import com.dio.academia.digital.infra.utils.JavaTimeUtils;
 
 import java.io.IOException;
 import java.time.LocalDateTime;
 
-/**
- * @author Venilton Falvo Jr
- */
 public class LocalDateTimeDeserializer extends StdDeserializer<LocalDateTime> {
 
 	private static final long serialVersionUID = -7209271947629593913L;

@@ -1,11 +1,8 @@
 package com.dio.academia.digital.infra.utils;
 
-import java.time.format.DateTimeFormatter;
 import java.util.Locale;
+import java.time.format.DateTimeFormatter;
 
-/**
- * @author Venilton Falvo Jr
- */
 public class JavaTimeUtils {
 	
 	private JavaTimeUtils() {}

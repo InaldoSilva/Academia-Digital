@@ -3,9 +3,9 @@ package com.dio.academia.digital.controller;
 import com.dio.academia.digital.entity.Aluno;
 import com.dio.academia.digital.entity.AvaliacaoFisica;
 import com.dio.academia.digital.entity.form.AlunoForm;
+import org.springframework.web.bind.annotation.*;
 import com.dio.academia.digital.service.impl.AlunoServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 import java.util.List;

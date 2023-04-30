@@ -1,5 +1,7 @@
 package com.dio.academia.digital.service.impl;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import com.dio.academia.digital.entity.Aluno;
 import com.dio.academia.digital.repository.AlunoRepository;
 import com.dio.academia.digital.repository.AvaliacaoFisicaRepository;
@@ -7,8 +9,6 @@ import com.dio.academia.digital.entity.AvaliacaoFisica;
 import com.dio.academia.digital.entity.form.AvaliacaoFisicaForm;
 import com.dio.academia.digital.entity.form.AvaliacaoFisicaUpdateForm;
 import com.dio.academia.digital.service.IAvaliacaoFisicaService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 

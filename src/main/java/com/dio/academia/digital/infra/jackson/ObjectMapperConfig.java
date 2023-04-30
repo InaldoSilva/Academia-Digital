@@ -1,20 +1,17 @@
 package com.dio.academia.digital.infra.jackson;
 
+import org.springframework.context.annotation.Configuration;
 import com.dio.academia.digital.infra.jackson.deser.LocalDateDeserializer;
 import com.dio.academia.digital.infra.jackson.deser.LocalDateTimeDeserializer;
 import com.dio.academia.digital.infra.jackson.ser.LocalDateSerializer;
 import com.dio.academia.digital.infra.jackson.ser.LocalDateTimeSerializer;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import org.springframework.boot.autoconfigure.jackson.Jackson2ObjectMapperBuilderCustomizer;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
-/**
- * @author Venilton Falvo Jr
- */
 @Configuration
 public class ObjectMapperConfig implements Jackson2ObjectMapperBuilderCustomizer {
 	

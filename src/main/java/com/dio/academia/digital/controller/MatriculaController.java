@@ -3,8 +3,8 @@ package com.dio.academia.digital.controller;
 import com.dio.academia.digital.entity.Matricula;
 import com.dio.academia.digital.entity.form.MatriculaForm;
 import com.dio.academia.digital.service.impl.MatriculaServiceImpl;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.validation.Valid;
 import java.util.List;

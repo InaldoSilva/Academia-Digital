@@ -1,5 +1,7 @@
 package com.dio.academia.digital.service.impl;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import com.dio.academia.digital.entity.Aluno;
 import com.dio.academia.digital.infra.utils.JavaTimeUtils;
 import com.dio.academia.digital.repository.AlunoRepository;
@@ -7,8 +9,6 @@ import com.dio.academia.digital.entity.AvaliacaoFisica;
 import com.dio.academia.digital.entity.form.AlunoForm;
 import com.dio.academia.digital.entity.form.AlunoUpdateForm;
 import com.dio.academia.digital.service.IAlunoService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
 import java.util.List;
